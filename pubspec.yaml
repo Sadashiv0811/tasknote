@@ -1,0 +1,151 @@
+name: tasknote
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  ############# Utilities & Helpers #############
+  intl: ^0.20.3
+  # Provides date, time, number, and localization formatting.
+
+  logger: ^2.7.0
+  # Provides structured and formatted application logging.
+  
+  crypto: ^3.0.6
+  # Provides cryptographic hashing algorithms such as SHA-256.
+
+  encrypt: ^5.0.3
+  # Provides encryption and decryption using algorithms such as AES.
+
+  uuid: ^4.6.0
+  # Generates unique identifiers (UUIDs).
+
+  share_plus: ^13.2.1
+  # Shares text, files, and other content using the native share dialog.
+
+  ############# State Management #############
+  flutter_riverpod: ^3.3.1             
+  # Provides reactive state management and dependency injection.
+
+  ############# UI & Widgets #############
+  sign_button: ^2.0.6  
+  # Provides ready-made sign-in buttons for popular providers.
+
+  flutter_animate: ^4.5.0
+  # Provides simple and customizable widget animations.
+
+  table_calendar: ^3.2.0
+  # Provides a customizable calendar widget.
+
+  flutter_slidable: ^3.1.0
+  # Adds swipe actions such as edit and delete to list items.
+
+  syncfusion_flutter_pdf: ^34.1.31
+  # Creates, edits, merges, and secures PDF documents.
+
+  syncfusion_flutter_pdfviewer: ^34.1.31
+  # Displays PDF documents with viewing and navigation controls.
+
+  ############# Local Storage #############
+  path_provider: ^2.1.6
+  # Provides paths to application directories and storage locations.
+
+  isar_community: ^3.3.2
+  # Provides a fast local NoSQL database for Flutter.
+
+  isar_community_flutter_libs: ^3.3.2
+  # Provides native Isar database libraries for supported platforms.
+
+  shared_preferences: ^2.5.3
+  # Stores simple persistent key-value data locally.
+
+  ############# Firebase #############
+  firebase_core: ^4.12.1
+  # Initializes and provides core functionality for Firebase.
+
+  cloud_firestore: ^6.7.1
+  # Provides access to Firebase's cloud-hosted NoSQL database.
+
+  firebase_auth: ^6.5.6
+  # Provides user authentication with email, phone, and OAuth providers.
+
+  firebase_app_check: ^0.4.5+2
+  # Helps protect Firebase resources from unauthorized clients.
+
+  google_sign_in: ^7.2.0           
+  # Provides Google account authentication.
+
+  ############# Network & Connectivity #############
+  internet_connection_checker_plus: ^3.1.1
+  # Checks whether the device has actual internet access.
+
+  connectivity_plus: ^7.3.0        
+  # Detects network connectivity changes such as Wi-Fi and mobile data.
+
+  ############# Notifications & Timezone #############
+  flutter_local_notifications: ^22.0.1
+  # Creates and schedules local notifications.
+
+  timezone: ^0.11.1
+  # Provides timezone-aware date and time handling.
+
+  flutter_native_timezone_latest: ^1.0.0 
+  # Retrieves the device's configured IANA timezone.
+
+  ############# Permissions #############
+  permission_handler: ^12.0.3
+  # Requests and manages runtime permissions on the device.
+ 
+  ############# Device Info #############
+  device_info_plus: ^13.2.0      
+  # Provides device and platform information such as Android version.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  isar_community_generator: ^3.3.2
+  # Generates Isar database schemas, adapters, and query code using annotations.
+
+  build_runner: ^2.15.0  
+  # Executes code generation tasks (e.g., Isar, JSON serialization).
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/fonts/
+
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: average
+      fonts:
+        - asset: assets/fonts/Average-Regular.ttf
+
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf    
+
+    - family: breeserif
+      fonts:
+        - asset: assets/fonts/BreeSerif-Regular.ttf

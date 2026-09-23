@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "253672631306",
+    "project_id": "tasknote-e60f0",
+    "storage_bucket": "tasknote-e60f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253672631306:android:fdaa2252afc7f1e7c583f3",
+        "android_client_info": {
+          "package_name": "com.sks.tasknote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253672631306-12u9nsohj60hpbcengi2f2lvjjlk87t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sks.tasknote",
+            "certificate_hash": "88edfd8c1ad6bc02dc40b8d744121f6729de4bc8"
+          }
+        },
+        {
+          "client_id": "253672631306-a77aukbka5ikjukr2obf3grv09142pim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYhchX-nX21Lm8eoqE8EI0dFvRjdDvqSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253672631306-a77aukbka5ikjukr2obf3grv09142pim.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "253672631306-4lomhnn3ad6c3b9urlehiu29v4p6eql9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sks.tasknote"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
